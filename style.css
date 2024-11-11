@@ -70,12 +70,15 @@ header {
 
 }
 
-.nav ul {
+.nav {
     list-style: none;
     margin: 0;
     padding: 0;
     display: flex;
     justify-content: space-between;
+}
+.nav a:hover{
+    color: rgb(37, 32, 176);
 }
 
 .nav li {
